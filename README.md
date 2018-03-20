@@ -18,10 +18,10 @@ The plugin supports the following config:
 
 Required | Variable | Description
 -------- | -------- | -----------
-* | `accessory` | Must be MythTV
-* | `name` | Description of the frontend.
-* | `frontend` | The IP Address of your frontend, will default to localhost if excluded
-  | `port` | The port that your frontend API is listening on, defaults to 6547 - Unless you changed the port you shouldn't need it.
+Yes | `accessory` | Must be MythTV
+Yes | `name` | Description of the frontend.
+Yes | `frontend` | The IP Address of your frontend, will default to localhost if excluded
+Optional | `port` | The port that your frontend API is listening on, defaults to 6547 - Unless you changed the port you shouldn't need it.
 
 Config example:
 ```json
