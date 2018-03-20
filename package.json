@@ -1,6 +1,6 @@
 {
   "name": "homebridge-mythtv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MythTV Plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "keywords": [

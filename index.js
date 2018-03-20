@@ -10,7 +10,7 @@ module.exports = function (homebridge) {
 
 function MythtTV(log, config) {
     this.log = log;
-    this.name = config["name"]; || 'MythtTV';
+    this.name = config["name"] || 'MythtTV';
     this.host = config["frontend"] || 'localhost';
     this.port = config["port"] || '6547';
     this.pollingInterval = config["polling_interval"] || 3;
