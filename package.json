@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-mythtv",
+  "version": "1.0.0",
+  "description": "MythTV Plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goobaroo/homebridge-mythtv_sensor.git"
+  },
+  "bugs": {
+    "url": "http://github.com/goobaroo/homebridge-mythtv_sensor/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "npm": "^5.7.1",
+    "request": "^2.65.0"
+  }
+}
